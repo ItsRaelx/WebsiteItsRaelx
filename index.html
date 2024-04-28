@@ -1,9 +1,83 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raelx's Linktree</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: #333;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .description {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .link {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .link:hover {
+            background-color: #eee;
+        }
+        .link a {
+            text-decoration: none;
+            color: #337ab7;
+        }
+        .link a:hover {
+            color: #23527c;
+        }
+    </style>
+    <!-- SEO Optimization -->
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Raelx's Linktree - A DevOps enthusiast based in Poland, passionate about optimizing and automating workflows.">
+    <meta name="keywords" content="Raelx, DevOps, Poland, GitHub, Email, YouTube">
+</head>
+<body>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/115838075?v=4" alt="Raelx's Profile Picture" class="profile-pic">
+        <h1>Raelx's Links</h1>
+        <p class="description">👋 Hi! I'm a DevOps enthusiast based in Poland, passionate about optimizing and automating workflows. Currently enhancing my skills in C and looking for collaboration opportunities. Reach out at kontakt@itsraelx.com. Let's connect and create something amazing with a wide array of tools like Docker, Python, Git, and more!</p>
+        <div class="links">
+            <div class="link">
+                <a href="https://github.com/ItsRaelx" target="_blank">GitHub</a>
+            </div>
+            <div class="link">
+                <a href="mailto:kontakt@itsraelx.com" target="_blank">Email</a>
+            </div>
+            <div class="link">
+                <a href="https://www.youtube.com/@raelx" target="_blank">YouTube</a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
