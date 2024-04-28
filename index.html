@@ -23,6 +23,24 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        /* Add media query for mobile devices */
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                border-radius: 0;
+                box-shadow: none;
+                background-color: #fff;
+            }
+            body {
+                background-color: transparent;
+            }
+            .description {
+                margin-bottom: 50px; /* Increased margin on mobile devices */
+            }
+        }
         .profile-pic {
             width: 100px;
             height: 100px;
@@ -77,9 +95,9 @@
             <div class="link">
                 <a href="https://www.youtube.com/@raelx" target="_blank">YouTube</a>
             </div>
-            <div class="link">
+             <div class="link">
               <a href="https://blog.itsraelx.com" target="_blank">Blog</a>
-            </div>
+             </div>
         </div>
     </div>
 </body>
