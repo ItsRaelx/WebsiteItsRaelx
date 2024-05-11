@@ -1,2 +1,2 @@
 # WebsiteItsRaelx
-Website for storing images, portfolio etc.
+Website for storing images, portfolio etc. :)
